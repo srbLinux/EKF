@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linux2024/EKF/src/info.hpp
+stdio.h
+-
+
+/home/linux2024/EKF/src/mat.cpp
+mat.h
+/home/linux2024/EKF/src/mat.h
+cstdlib
+-
+cstring
+-
+./info.hpp
+/home/linux2024/EKF/src/info.hpp
+
+/home/linux2024/EKF/src/mat.h
+cstddef
+-
+

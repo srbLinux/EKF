@@ -57,45 +57,60 @@ include CMakeFiles/EKF.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/EKF.dir/flags.make
 
+CMakeFiles/EKF.dir/src/algorithm.cpp.o: CMakeFiles/EKF.dir/flags.make
+CMakeFiles/EKF.dir/src/algorithm.cpp.o: ../src/algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EKF.dir/src/algorithm.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EKF.dir/src/algorithm.cpp.o -c /home/linux2024/EKF/src/algorithm.cpp
+
+CMakeFiles/EKF.dir/src/algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EKF.dir/src/algorithm.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2024/EKF/src/algorithm.cpp > CMakeFiles/EKF.dir/src/algorithm.cpp.i
+
+CMakeFiles/EKF.dir/src/algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EKF.dir/src/algorithm.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2024/EKF/src/algorithm.cpp -o CMakeFiles/EKF.dir/src/algorithm.cpp.s
+
 CMakeFiles/EKF.dir/src/main.cpp.o: CMakeFiles/EKF.dir/flags.make
 CMakeFiles/EKF.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EKF.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EKF.dir/src/main.cpp.o -c /home/linux2024/EKF/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EKF.dir/src/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EKF.dir/src/main.cpp.o -c /home/linux2024/EKF/src/main.cpp
 
 CMakeFiles/EKF.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EKF.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2024/EKF/src/main.cpp > CMakeFiles/EKF.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2024/EKF/src/main.cpp > CMakeFiles/EKF.dir/src/main.cpp.i
 
 CMakeFiles/EKF.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EKF.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2024/EKF/src/main.cpp -o CMakeFiles/EKF.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2024/EKF/src/main.cpp -o CMakeFiles/EKF.dir/src/main.cpp.s
 
 CMakeFiles/EKF.dir/src/mat.cpp.o: CMakeFiles/EKF.dir/flags.make
 CMakeFiles/EKF.dir/src/mat.cpp.o: ../src/mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EKF.dir/src/mat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EKF.dir/src/mat.cpp.o -c /home/linux2024/EKF/src/mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EKF.dir/src/mat.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EKF.dir/src/mat.cpp.o -c /home/linux2024/EKF/src/mat.cpp
 
 CMakeFiles/EKF.dir/src/mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EKF.dir/src/mat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2024/EKF/src/mat.cpp > CMakeFiles/EKF.dir/src/mat.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linux2024/EKF/src/mat.cpp > CMakeFiles/EKF.dir/src/mat.cpp.i
 
 CMakeFiles/EKF.dir/src/mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EKF.dir/src/mat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2024/EKF/src/mat.cpp -o CMakeFiles/EKF.dir/src/mat.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linux2024/EKF/src/mat.cpp -o CMakeFiles/EKF.dir/src/mat.cpp.s
 
 # Object files for target EKF
 EKF_OBJECTS = \
+"CMakeFiles/EKF.dir/src/algorithm.cpp.o" \
 "CMakeFiles/EKF.dir/src/main.cpp.o" \
 "CMakeFiles/EKF.dir/src/mat.cpp.o"
 
 # External object files for target EKF
 EKF_EXTERNAL_OBJECTS =
 
+EKF: CMakeFiles/EKF.dir/src/algorithm.cpp.o
 EKF: CMakeFiles/EKF.dir/src/main.cpp.o
 EKF: CMakeFiles/EKF.dir/src/mat.cpp.o
 EKF: CMakeFiles/EKF.dir/build.make
 EKF: CMakeFiles/EKF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable EKF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linux2024/EKF/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable EKF"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EKF.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

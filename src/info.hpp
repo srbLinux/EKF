@@ -5,11 +5,7 @@
 
 #define _EKF_MAX_ERROR_INFO_ 2048
 
-#define ERROR(str) \
-    do { \
-        char *__error_format_str__ = new char[_EKF_MAX_ERROR_INFO_]; \
-        sprintf(__error_format_str__, "%s - %s: %s", __FILE__, __func__, str); \
-        fprintf(stderr, __error_format_str__); \
-    } while (0)
+template<typename ...Args>
+void print(const char *format, Args... args);
 
 #endif
